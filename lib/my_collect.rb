@@ -12,6 +12,6 @@ def my_collect(array)
 end
 
 #binding.pry
-hello(array) do |name|
+my_collect(array) do |name|
   name.split(" ").first
 end
