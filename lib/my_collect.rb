@@ -12,6 +12,7 @@ def my_collect(array)
 end
 
 #binding.pry
+array = ["Tim Jones", "Tom Smith", "JIm Campagno"]
 my_collect(array) do |name|
   name.split(" ").first
 end
